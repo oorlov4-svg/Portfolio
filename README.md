@@ -34,13 +34,34 @@ HTML5
 
 CSS3 (Flexbox / Grid)
 
+LESS (CSS preprocessor)
+
 JavaScript (ES6+)
 
 jQuery
 
+🎨 Styling with LESS
+
+The project uses LESS to improve styling workflow and maintainability:
+
+Variables for colors, spacing, and typography
+
+Nested rules for better structure
+
+Mixins for reusable styles
+
+Easier scalability and code readability
+
+LESS files are compiled into standard CSS before deployment.
+
 📂 Project Structure
 ├── index.html
 ├── css/
+│   └── style.css
+├── less/
+│   ├── variables.less
+│   ├── mixins.less
+│   └── main.less
 ├── js/
 │   ├── main.js
 │   └── slider.js
@@ -54,9 +75,9 @@ Modal windows handled via JavaScript event delegation
 
 jQuery used for DOM manipulation and slider functionality
 
-Clean and maintainable code structure (BEM methodology)
+LESS preprocessor used for scalable and maintainable styles
 
-Optimized assets and images
+Clean and structured code (BEM methodology)
 
 📬 Contact Flow
 
@@ -68,10 +89,10 @@ To create a visually appealing and user-friendly platform for presenting a web d
 
 🔧 Future Improvements
 
-Form submission with backend integration (e.g., API / email service)
+Backend integration for form submission (API / email service)
 
-Accessibility improvements (ARIA attributes, keyboard navigation)
+Accessibility improvements (ARIA, keyboard navigation)
 
 Migration from jQuery to modern frameworks (React / Vue)
 
-Performance optimization (lazy loading, code splitting)
+Performance optimization (lazy loading, minification)
